@@ -22,21 +22,22 @@
   left: -15.625em;
   width: 15.625em;
   background: #004478;
+  z-index: 1100;
 }
 
-/* line 24, ../scss/style.scss */
+/* line 25, ../scss/style.scss */
 .push {
   position: relative;
 }
 
-/* line 29, ../scss/style.scss */
+/* line 30, ../scss/style.scss */
 body {
   color: #ffffff;
   font-family: Verdana, Geneva, sans-serif;
   background-color: #00305b;
 }
 
-/* line 35, ../scss/style.scss */
+/* line 38, ../scss/style.scss */
 .wrapper {
   color: #ffffff;
   width: 95%;
@@ -45,25 +46,25 @@ body {
   background-color: #00305b;
 }
 
-/* line 43, ../scss/style.scss */
+/* line 46, ../scss/style.scss */
 footer.bottom {
   width: 95%;
   margin: 0 auto;
 }
 
-/* line 48, ../scss/style.scss */
+/* line 51, ../scss/style.scss */
 .top {
   background: #ffffff;
 }
 
-/* line 52, ../scss/style.scss */
+/* line 55, ../scss/style.scss */
 .searchicon {
   width: 5%;
   height: 5%;
   float: left;
 }
 
-/* line 58, ../scss/style.scss */
+/* line 61, ../scss/style.scss */
 .donatebutton {
   background-color: #669933;
   color: #ffffff;
@@ -72,47 +73,57 @@ footer.bottom {
   float: right;
 }
 
-/* line 66, ../scss/style.scss */
+/* line 69, ../scss/style.scss */
 .logo {
   display: inline-block;
-  width: 25%;
-  text-align: right;
+  width: 30%;
+  float: right;
 }
 
-/* line 72, ../scss/style.scss */
+/* line 75, ../scss/style.scss */
 .heroimg {
   opacity: 0.4;
   background-color: #00305b;
   width: 100%;
 }
 
-/* line 78, ../scss/style.scss */
+/* line 81, ../scss/style.scss */
 .bottom {
   background-color: #00305b;
 }
 
-/* line 82, ../scss/style.scss */
+/* line 85, ../scss/style.scss */
 .bottom ul {
   padding: 0;
 }
 
-/* line 86, ../scss/style.scss */
+/* line 89, ../scss/style.scss */
 .program_dropdown {
   background-color: #005ea5;
   text-align: center;
   padding: 10px;
   margin: 10px 0;
 }
+/* line 95, ../scss/style.scss */
+.program_dropdown select {
+  padding: 5%;
+}
 
-/* line 93, ../scss/style.scss */
+/* line 101, ../scss/style.scss */
+.submit {
+  display: block;
+  padding: 5%;
+  margin-top: 5%;
+}
+
+/* line 109, ../scss/style.scss */
 .bottom a {
   background-color: #669933;
   color: white;
   text-decoration: none;
-  padding: 1%;
 }
 
-/* line 122, ../scss/style.scss */
+/* line 137, ../scss/style.scss */
 .bottombuttons a {
   display: block;
   background-color: #669933;
@@ -120,70 +131,91 @@ footer.bottom {
   width: 44%;
   border-style: none;
   padding: 2.5%;
+  text-align: center;
 }
 
-/* line 131, ../scss/style.scss */
+/* line 147, ../scss/style.scss */
 .expunge {
   float: left;
 }
 
-/* line 135, ../scss/style.scss */
+/* line 151, ../scss/style.scss */
 .prose {
   float: right;
 }
 
-/* line 141, ../scss/style.scss */
+/* line 157, ../scss/style.scss */
 ul {
   list-style: none;
 }
 
-/* line 146, ../scss/style.scss */
+/* line 162, ../scss/style.scss */
 nav a {
   color: #ffffff;
 }
 
-/* line 151, ../scss/style.scss */
+/* line 167, ../scss/style.scss */
 .newsletter {
   display: block;
-  width: 25%;
+  width: 26%;
+  padding: 5%;
 }
 
-/* line 160, ../scss/style.scss */
+/* line 177, ../scss/style.scss */
 .news a {
   color: #ffffff;
   text-decoration: none;
 }
-/* line 165, ../scss/style.scss */
+/* line 182, ../scss/style.scss */
 .news div {
   background-color: #005ea5;
   width: 44%;
   padding: 2.5%;
 }
 
-/* line 172, ../scss/style.scss */
+/* line 189, ../scss/style.scss */
 .news1 {
   float: left;
 }
 
-/* line 176, ../scss/style.scss */
+/* line 193, ../scss/style.scss */
 .news2 {
   float: right;
 }
 
-/* line 182, ../scss/style.scss */
-.bottombuttons a {
-  display: block;
-  background-color: #669933;
-  color: #ffffff;
-  width: 44%;
-  border-style: none;
-  padding: 2.5%;
-}
-
-/* line 191, ../scss/style.scss */
+/* line 198, ../scss/style.scss */
 .numbers {
-  display: inline-block;
-  width: 100%;
   background: #002240;
   font-size: 1.4em;
+  text-align: center;
+  margin-bottom: 5%;
+  padding: 5%;
+}
+/* line 205, ../scss/style.scss */
+.numbers em {
+  font-size: 3em;
+  display: block;
+  line-height: 1.2;
+}
+
+/* line 212, ../scss/style.scss */
+.content {
+  line-height: 1.5em;
+}
+
+/*Fathers and families mobile*/
+/* line 219, ../scss/style.scss */
+.resources {
+  background-color: #b2b2b2;
+  color: #000000;
+}
+/* line 220, ../scss/style.scss */
+.resources a {
+  color: blue;
+  display: block;
+}
+
+/* line 228, ../scss/style.scss */
+.visitation a {
+  color: white;
 }
