@@ -14,13 +14,190 @@
 
 /***** SITE STYLES *************/
 /**********************************/
+.panel {
+    position: fixed;
+    left: -15.625em; //left or right and the width of your navigation panel
+    width: 15.625em; //should match the above value
+    background: #004478;
+}
+
+.push{
+    position: relative;
+}
+
+
+body{
+    color: #ffffff;
+    font-family:Verdana, Geneva, sans-serif;
+    background-color: #00305b;
+}
+
 .wrapper{
-	background: #00305b;
+    color: #ffffff;
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #00305b;
+}
+
+footer.bottom{
+    width: 95%;
+    margin: 0 auto;
 }
 
 .top{
-	background: #ffffff;
+    background: #ffffff;
 }
+
+.searchicon{ 
+    width: 5%;
+    height: 5%;
+    float: left;
+}
+
+.donatebutton{
+    background-color:#669933;
+    color: #ffffff;
+    border-style: none;
+    text-decoration: none;
+    float: right;
+}
+
+.logo{
+    display: inline-block;
+    width: 25%;
+    text-align: right;
+}
+
+.heroimg{
+    opacity: 0.4;
+    background-color:#00305b; 
+    width: 100%;
+}
+
+.bottom{
+    background-color: #00305b;
+}
+
+.bottom ul{
+    padding: 0;
+}
+
+.program_dropdown{
+    background-color: #005ea5;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.bottom a{
+    background-color: #669933;
+    color: white;
+    text-decoration: none;
+    padding: 1%;
+}
+
+
+// .expunge{
+//     display: block;
+//     background-color:#669933;
+//     color: #ffffff;
+//     width: 45%;
+//     border-style: none;
+//     padding: 20px;
+// }
+
+// .prose{
+//     display: block;
+//     background-color:#669933;
+//     color: #ffffff;
+//     width: 45%;
+//     border-style: none;
+//     padding: 20px;
+// }
+
+.bottombuttons{
+}
+
+.bottombuttons a{
+    display: block;
+    background-color:#669933;
+    color: #ffffff;
+    width: 44%;
+    border-style: none;
+    padding: 2.5%;
+}
+
+.expunge{
+    float: left;
+}
+
+.prose{
+    float: right;
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+nav{
+    a{
+        color: #ffffff;
+    }
+}
+
+.newsletter{
+    display: block;
+    width: 25%;
+}
+
+
+//HomePage mobile
+.news{
+
+    a{
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    div{
+        background-color: #005ea5;
+        width: 44%;
+        padding: 2.5%;
+    }
+}
+
+.news1{
+    float: left;
+}
+
+.news2{
+    float: right;
+}
+
+
+
+.bottombuttons a{
+    display: block;
+    background-color:#669933;
+    color: #ffffff;
+    width: 44%;
+    border-style: none;
+    padding: 2.5%;
+}
+
+.numbers{
+    display: inline-block;
+    width: 100%;
+    background: #002240;
+    font-size: 1.4em;
+}
+
+
+
+
 
 
 

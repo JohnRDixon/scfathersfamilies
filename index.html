@@ -10,23 +10,43 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico in the root directory -->
-        <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
     </head>
     <body>
-        <div class="top">
-        <button class="menubutton" id="button">Menu</button>
-        <img src="img/logo.png">
-        <img src="img/searchicon.svg">
-        <button class="donatebutton" id="button">Donate</button>
+        <div class="top push">
+        <a href="#menu" class="menu-link">Menu</a>
+        <nav id="menu" class="panel">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Impact</a></li>
+                <li><a href="programs.html">Fatherhood Programs</a></li>
+                <li><a href="#">Expertise</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="fathersfamilies.html">Fathers and Families</a></li>
+                <li><a href="#">Practitioners</a></li>
+                <li><a href="#">Funders, Partners, &amp; Policy-Makers</a></li>
+                <li><a href="#">Media</a></li>
+            </ul>
+        </nav>
+        <a href="index.html"><img src="img/logo.png" class="logo"></a>
+        <img src="img/searchicon.svg" class="searchicon">
+        <a href="donate.html" class="donatebutton">Donate</a>
         </div>
-
-        <div class="wrapper">
+        <img src="img/Center_feature_tatoo_arm.jpg" alt="father holding child" class="heroimg push">
+        <div class="wrapper push">
       
             <p>
                 We at the South Carolina Center for Fathers and Families believe that children thrive when an engaged, responsible father is active in their lives. Yet, in South Carolina many children live in a father-absent home and the consequences are dire for these children. To address this growing problem, The Center supports six fatherhood programs in 12 communities across the state while promoting father-friendly policies and practices and helping to erase society's negative stereotypes of unwed, low-income dads. Few programs have the expertise to deliver father-centered programs to enable men to develop the knowledge, confidence and skills to become responsible fathers and co-parents. The SC Center for Fathers and Families and tthe local fatherhood programs have this extensive experience.
             </p>
-            <div class="news">
+
+            <div class="numbers">
+
+                    We serve over 1600 Fathers Annually
+            </div>
+
+            <div class="news clearfix">
                 <div class="news1">
                     <h4>
                         SC Responsible Father 
@@ -51,10 +71,7 @@
                     <a href="#">Read More</a>
                 </div>
             </div>
-                <div class="numbers">
-
-                    We serve over 1600 Fathers Annually
-                </div>
+                
             
 
         </div>
@@ -66,9 +83,11 @@
 
 
 
-        <footer class="bottom">
-            <button class="expunge" id="button">Expungement Guide</button>
-            <button class="prose" id="button">Pro Se Modification</button>
+        <footer class="bottom push">
+            <div class="bottombuttons clearfix">
+                <a href="#" class="expunge">Expungement Guide</a>
+                <a href="#" class="prose">Pro Se Modification</a>
+            </div>
             <form action="#" class="program_dropdown">
                 <h2>Find a program</h2>
                 <select>
@@ -78,9 +97,10 @@
                   <option value="Man 2 Man">Man 2 Man</option>
                   <option value="Midlands Fatherhood Coalition">Midlands Fatherhood Coalition</option>
                   <option value="Upstate Fatherhood Coalition">Upstate Fatherhood Coalition</option>
-                  <input type="submit">
                 </select>
-            </div>
+                <a href="#" class="submit">Submit</a>
+            </form>
+            
             <p>
                 2711 Middleburg Drive, Suite 111
                 Columbia, SC 29204
@@ -94,7 +114,7 @@
                 <li>Privacy Policy</li>
             </ul>
             <img src="img/social.jpg">
-            <button class="newsletter" id="button">Sign Up For Our Newsletter</button>
+            <a href="#" class="newsletter">Sign Up For Our Newsletter</a>
             <p>
                 The South Carolina Center for Fathers and Families
                 A Ministry of the Sisters of Charity of St. Augustine

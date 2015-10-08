@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-    <head>
+     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
@@ -10,18 +10,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico in the root directory -->
-        <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
     </head>
     <body>
-        <div class="top">
-        <button class="menubutton" id="button">Menu</button>
-        <img src="img/logo.png">
-        <img src="img/searchicon.svg">
+        <div class="top push">
+        <a href="#menu" class="menu-link">Menu</a>
+        <nav id="menu" class="panel">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Impact</a></li>
+                <li><a href="programs.html">Fatherhood Programs</a></li>
+                <li><a href="#">Expertise</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="fathersfamilies.html">Fathers and Families</a></li>
+                <li><a href="#">Practitioners</a></li>
+                <li><a href="#">Funders, Partners, &amp; Policy-Makers</a></li>
+                <li><a href="#">Media</a></li>
+            </ul>
+        </nav>
+        <img src="img/logo.png" class="logo clear">
+        <img src="img/searchicon.svg" class="searchicon">
         <button class="donatebutton" id="button">Donate</button>
         </div>
 
-        <div class="wrapper">
+        <div class="wrapper push">
       
             <h2>Donate</h2>
             <p>
@@ -163,7 +177,7 @@
 
 
 
-        <footer class="bottom">
+        <footer class="bottom push">
             <button class="expunge" id="button">Expungement Guide</button>
             <button class="prose" id="button">Pro Se Modification</button>
             <form action="#" class="programs">
