@@ -172,7 +172,7 @@ nav a {
 .newsletter {
   display: block;
   width: 20%;
-  padding: 5%;
+  padding: 2%;
 }
 
 /* line 186, ../scss/style.scss */
@@ -330,7 +330,6 @@ a {
   .newsletter {
     display: inline-block;
     vertical-align: top;
-    margin: 5%;
   }
 
   /* line 333, ../scss/style.scss */
