@@ -281,12 +281,12 @@ a {
 }
 
 /*Donate Mobile*/
-/* line 290, ../scss/style.scss */
+/* line 292, ../scss/style.scss */
 .behalf {
   display: none;
 }
 
-/* line 294, ../scss/style.scss */
+/* line 296, ../scss/style.scss */
 .formdivs {
   padding-top: 2%;
   padding-bottom: 2%;
@@ -294,7 +294,7 @@ a {
   margin: 0 auto;
 }
 
-/* line 301, ../scss/style.scss */
+/* line 303, ../scss/style.scss */
 .submitbutton {
   background-color: #669933;
   color: white;
@@ -307,53 +307,53 @@ a {
 }
 
 @media screen and (min-width: 660px) {
-  /* line 313, ../scss/style.scss */
+  /* line 315, ../scss/style.scss */
   .contact {
     display: inline-block;
     vertical-align: top;
     width: 30%;
   }
 
-  /* line 318, ../scss/style.scss */
+  /* line 320, ../scss/style.scss */
   .links {
     display: inline-block;
     vertical-align: top;
   }
 
-  /* line 322, ../scss/style.scss */
+  /* line 324, ../scss/style.scss */
   .social {
     display: inline-block;
     vertical-align: top;
   }
 
-  /* line 326, ../scss/style.scss */
+  /* line 328, ../scss/style.scss */
   .newsletter {
     display: inline-block;
     vertical-align: top;
     margin: 5%;
   }
 
-  /* line 331, ../scss/style.scss */
+  /* line 333, ../scss/style.scss */
   .copy {
     width: 100%;
     text-align: center;
   }
 
-  /* line 338, ../scss/style.scss */
+  /* line 340, ../scss/style.scss */
   .content {
     width: 44%;
     display: inline-block;
     vertical-align: top;
   }
 
-  /* line 344, ../scss/style.scss */
+  /* line 346, ../scss/style.scss */
   .numbers {
     width: 44%;
     display: inline-block;
     vertical-align: top;
   }
 
-  /* line 351, ../scss/style.scss */
+  /* line 353, ../scss/style.scss */
   .support {
     background-color: #00427e;
     width: 45%;
@@ -362,7 +362,7 @@ a {
     padding: 2%;
   }
 
-  /* line 359, ../scss/style.scss */
+  /* line 361, ../scss/style.scss */
   .visitation {
     background-color: #005ea5;
     width: 45%;
@@ -371,25 +371,25 @@ a {
     padding: 2%;
   }
 
-  /* line 367, ../scss/style.scss */
+  /* line 369, ../scss/style.scss */
   .resources {
     margin-top: 2%;
   }
 }
 @media screen and (min-width: 1000px) {
-  /* line 378, ../scss/style.scss */
+  /* line 380, ../scss/style.scss */
   .content {
     width: 100%;
   }
 
-  /* line 382, ../scss/style.scss */
+  /* line 384, ../scss/style.scss */
   .numbers {
     width: 44%;
     float: left;
     margin-bottom: 0;
   }
 
-  /* line 387, ../scss/style.scss */
+  /* line 389, ../scss/style.scss */
   .news {
     width: 44%;
     float: right;
