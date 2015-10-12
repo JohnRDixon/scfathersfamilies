@@ -114,16 +114,19 @@ footer.bottom {
   display: block;
   padding: 5%;
   margin-top: 5%;
+  width: 45%;
+  margin: 0 auto;
+  margin-top: 10px;
 }
 
-/* line 109, ../scss/style.scss */
+/* line 112, ../scss/style.scss */
 .bottom a {
   background-color: #669933;
   color: white;
   text-decoration: none;
 }
 
-/* line 137, ../scss/style.scss */
+/* line 140, ../scss/style.scss */
 .bottombuttons a {
   display: block;
   background-color: #669933;
@@ -134,56 +137,101 @@ footer.bottom {
   text-align: center;
 }
 
-/* line 147, ../scss/style.scss */
+/* line 150, ../scss/style.scss */
 .expunge {
   float: left;
 }
 
-/* line 151, ../scss/style.scss */
+/* line 154, ../scss/style.scss */
 .prose {
   float: right;
 }
 
-/* line 157, ../scss/style.scss */
+/* line 160, ../scss/style.scss */
 ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* line 166, ../scss/style.scss */
+li {
   list-style: none;
 }
 
-/* line 162, ../scss/style.scss */
+/* line 170, ../scss/style.scss */
+.programs ul {
+  list-style: none;
+}
+
+/* line 175, ../scss/style.scss */
 nav a {
   color: #ffffff;
 }
 
-/* line 167, ../scss/style.scss */
+/* line 180, ../scss/style.scss */
 .newsletter {
   display: block;
-  width: 26%;
+  width: 20%;
   padding: 5%;
 }
 
-/* line 177, ../scss/style.scss */
+/* line 186, ../scss/style.scss */
+.logomenu {
+  border-bottom: 2px solid grey;
+  clear: both;
+  padding: 2%;
+}
+
+/* line 192, ../scss/style.scss */
+.menu-link {
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #669933;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+/* line 203, ../scss/style.scss */
+.searchdonate {
+  padding: 2%;
+}
+
+/* line 207, ../scss/style.scss */
+.donatebutton {
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
+/* line 212, ../scss/style.scss */
+.bannerimg {
+  max-width: 100%;
+  width: 100%;
+}
+
+/* line 221, ../scss/style.scss */
 .news a {
   color: #ffffff;
   text-decoration: none;
 }
-/* line 182, ../scss/style.scss */
+/* line 226, ../scss/style.scss */
 .news div {
   background-color: #005ea5;
   width: 44%;
   padding: 2.5%;
 }
 
-/* line 189, ../scss/style.scss */
+/* line 233, ../scss/style.scss */
 .news1 {
   float: left;
 }
 
-/* line 193, ../scss/style.scss */
+/* line 237, ../scss/style.scss */
 .news2 {
   float: right;
 }
 
-/* line 198, ../scss/style.scss */
+/* line 242, ../scss/style.scss */
 .numbers {
   background: #002240;
   font-size: 1.4em;
@@ -191,31 +239,159 @@ nav a {
   margin-bottom: 5%;
   padding: 5%;
 }
-/* line 205, ../scss/style.scss */
+/* line 249, ../scss/style.scss */
 .numbers em {
   font-size: 3em;
   display: block;
   line-height: 1.2;
 }
 
-/* line 212, ../scss/style.scss */
+/* line 256, ../scss/style.scss */
 .content {
   line-height: 1.5em;
 }
 
 /*Fathers and families mobile*/
-/* line 219, ../scss/style.scss */
+/* line 263, ../scss/style.scss */
 .resources {
   background-color: #b2b2b2;
   color: #000000;
+  overflow: hidden;
+  padding: 5%;
 }
-/* line 220, ../scss/style.scss */
+/* line 264, ../scss/style.scss */
 .resources a {
   color: blue;
   display: block;
 }
+/* line 272, ../scss/style.scss */
+.resources li {
+  padding: 1%;
+}
 
-/* line 228, ../scss/style.scss */
+/* line 279, ../scss/style.scss */
 .visitation a {
   color: white;
+}
+
+/*Programs mobile*/
+/* line 285, ../scss/style.scss */
+a {
+  color: white;
+}
+
+/*Donate Mobile*/
+/* line 290, ../scss/style.scss */
+.behalf {
+  display: none;
+}
+
+/* line 294, ../scss/style.scss */
+.formdivs {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 301, ../scss/style.scss */
+.submitbutton {
+  background-color: #669933;
+  color: white;
+  text-decoration: none;
+  padding: 2%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 45%;
+}
+
+@media screen and (min-width: 660px) {
+  /* line 313, ../scss/style.scss */
+  .contact {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+  }
+
+  /* line 318, ../scss/style.scss */
+  .links {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  /* line 322, ../scss/style.scss */
+  .social {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  /* line 326, ../scss/style.scss */
+  .newsletter {
+    display: inline-block;
+    vertical-align: top;
+    margin: 5%;
+  }
+
+  /* line 331, ../scss/style.scss */
+  .copy {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* line 338, ../scss/style.scss */
+  .content {
+    width: 44%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  /* line 344, ../scss/style.scss */
+  .numbers {
+    width: 44%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  /* line 351, ../scss/style.scss */
+  .support {
+    background-color: #00427e;
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 2%;
+  }
+
+  /* line 359, ../scss/style.scss */
+  .visitation {
+    background-color: #005ea5;
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 2%;
+  }
+
+  /* line 367, ../scss/style.scss */
+  .resources {
+    margin-top: 2%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  /* line 378, ../scss/style.scss */
+  .content {
+    width: 100%;
+  }
+
+  /* line 382, ../scss/style.scss */
+  .numbers {
+    width: 44%;
+    float: left;
+    margin-bottom: 0;
+  }
+
+  /* line 387, ../scss/style.scss */
+  .news {
+    width: 44%;
+    float: right;
+  }
 }

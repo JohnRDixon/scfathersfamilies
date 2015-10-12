@@ -102,6 +102,9 @@ footer.bottom{
     display: block;
     padding: 5%;
     margin-top: 5%;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 10px;
 }
 
 
@@ -156,6 +159,16 @@ footer.bottom{
 
 ul{
     list-style: none;
+    padding: 0;
+
+}
+
+li{
+        list-style: none;
+}
+
+.programs ul{
+    list-style: none;
 }
 
 nav{
@@ -166,8 +179,39 @@ nav{
 
 .newsletter{
     display: block;
-    width: 26%;
+    width: 20%;
     padding: 5%;
+}
+
+.logomenu{
+    border-bottom: 2px solid grey;
+    clear: both;
+    padding: 2%;
+}
+
+.menu-link{
+
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 20px;
+    background: #669933;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+}
+
+.searchdonate{
+    padding: 2%;
+}
+
+.donatebutton{
+    padding: 2%;
+    margin-bottom:2%;
+}
+
+.bannerimg{
+    max-width: 100%;
+    width: 100%
 }
 
 
@@ -223,16 +267,132 @@ nav{
     }
     background-color:#b2b2b2;
     color: #000000;
+    overflow: hidden;
+    padding: 5%;
+    li{
+        padding: 1%;
+    }
 }
+
+
 
 .visitation a{
     color: white;
 }
 
+/*Programs mobile*/
+
+a{
+    color: white;
+}
+
+/*Donate Mobile*/
+.behalf{
+    display: none;
+}
+
+.formdivs{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.submitbutton{
+    background-color: #669933;
+    color: white;
+    text-decoration: none;
+    padding: 2%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 45%;
+}
+
+@media screen and (min-width: 660px){
+    .contact{
+        display: inline-block;
+        vertical-align: top;
+        width: 30%;
+    }
+    .links{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .social{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .newsletter{
+        display: inline-block;
+        vertical-align: top;
+        margin: 5%;
+    }
+    .copy{
+        width: 100%;
+        text-align: center;
+    }
+
+
+    //homepage tablet
+    .content{
+        width: 44%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .numbers{
+        width: 44%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    //programs tablet
+    .support{
+        background-color:#00427e;
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+        padding: 2%;
+    }
+
+    .visitation{
+        background-color:#005ea5;
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+        padding: 2%;
+    }
+
+    .resources{
+        margin-top:2%; 
+    }
+
+    //donate tablet
+
+
+}
+
+@media screen and (min-width: 1000px){
+    //homepage desktop
+    .content{
+        width: 100%;
+    }
+
+    .numbers{
+        width: 44%;
+        float: left;
+        margin-bottom: 0;
+    }
+    .news{
+        width: 44%;
+        float: right;
+    }
 
 
 
+}
 
-
+    
 
 
